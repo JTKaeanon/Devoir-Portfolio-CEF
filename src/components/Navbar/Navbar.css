@@ -1,0 +1,9 @@
+
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link.active {
+    text-decoration-line: underline;
+}
