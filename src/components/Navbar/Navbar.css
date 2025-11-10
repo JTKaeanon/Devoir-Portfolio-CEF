@@ -1,9 +1,37 @@
 
+/* Main container */
 
-.nav-link{
+.navbar .container-fluid {
+    display: flex ;
+    justify-content: space-between ; /* brand left, link right */
+    align-items: center ;
     color: white !important;
 }
 
-.nav-link.active {
-    text-decoration-line: underline;
+/* Brand */
+.navbar-brand {
+    margin: 0; /* <p> default margin  */
 }
+
+/* Links container */
+.navbar-nav {
+    display: flex ;        
+    margin-left: auto ;    /* Right */
+    gap: 1rem;                       /* space */
+}
+
+/* Link */
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-link.active {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+

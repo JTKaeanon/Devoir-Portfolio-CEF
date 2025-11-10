@@ -26,9 +26,9 @@ const Navbar = () => {
 
 
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div className="container-fluid">
-                <p className="navbar-brand">John Doe</p>
+        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+            <div className="container-fluid ">
+                <p className="navbar-brand ">John Doe</p>
                 <button className={showCollapsedNav ? "navbar-toggler collapsed" : "navbar-toggler"} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded={showCollapsedNav ? "true" : "false"} aria-label="Toggle navigation" onClick={handleNavButton}>
                     <span className="navbar-toggler-icon"></span>
                 </button>
