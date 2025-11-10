@@ -5,7 +5,6 @@
     display: flex ;
     justify-content: space-between ; /* brand left, link right */
     align-items: center ;
-    color: white !important;
 }
 
 /* Brand */
@@ -17,12 +16,14 @@
 .navbar-nav {
     display: flex ;        
     margin-left: auto ;    /* Right */
-    gap: 1rem;                       /* space */
+    gap: 1rem;             /* space */
+    
 }
 
 /* Link */
 .nav-link {
     text-decoration: none;
+    color: white !important; /*  Color navlinks */
 }
 
 .nav-link:hover {
