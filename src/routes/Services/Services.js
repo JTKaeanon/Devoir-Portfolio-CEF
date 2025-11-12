@@ -1,10 +1,15 @@
 import React from 'react'
+import ServicesCards from '../../components/Cards/Cards'
+import '../../assets/Services.css'
 
 function Services() {
   return (
-    <div>
-      <h1>Services</h1>
+    <>
+    <div className='page-services'>
+      <h1 className='services-titre'>Mon offre de services</h1>
+      <ServicesCards />
     </div>
+    </>
   )
 }
 

@@ -2,10 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom"
 import "./Navbar.css";
 
-
+// Main component
 const Navbar = () => {
-    const [showCollapsedNav, setShowCollapsedNav] = useState(false)
-    const [activeNavLink, setactiveNavLink] = useState('')
+    const [showCollapsedNav, setShowCollapsedNav] = useState(false) //Burger
+    const [activeNavLink, setactiveNavLink] = useState('') // Active link
 
     const location = useLocation()
 
@@ -20,8 +20,8 @@ const Navbar = () => {
     }
 
     useEffect(() => {
-       const path = location.pathname
-       if (path === '/') setactiveNavLink ('HOME')
+        const path = location.pathname
+        if (path === '/') setactiveNavLink('HOME')
     }, [location]);
 
 
@@ -29,10 +29,10 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-md navbar-dark bg-dark">
             <div className="container-fluid ">
                 <p className="navbar-brand ">JOHN DOE</p>
-                <button className={showCollapsedNav ? "navbar-toggler collapsed" : "navbar-toggler"} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded={showCollapsedNav ? "true" : "false"} aria-label="Toggle navigation" onClick={handleNavButton}>
+                <button className={showCollapsedNav ? "navbar-toggler collapsed" : "navbar-toggler"} type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded={showCollapsedNav ? "true" : "false"} aria-label="Toggle navigation" onClick={handleNavButton}> {/* Burger Button */}
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className={showCollapsedNav ? "collapse navbar-collapse show" : "collapse navbar-collapse"} id="navbarNav">
+                <div className={showCollapsedNav ? "collapse navbar-collapse show" : "collapse navbar-collapse"} id="navbarNav"> {/* Menu */}
                     <div className="navbar-nav">
 
                         <Link className={activeNavLink === "HOME" ? "nav-link active" : "nav-link"} aria-current="page" to="/" onClick={handleNavLink}>HOME</Link>
