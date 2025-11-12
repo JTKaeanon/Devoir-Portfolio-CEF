@@ -113,4 +113,8 @@
   .about img {
     max-width: 100%;
   }
+  
+  .about p{
+    text-align: start;
+  }
 }
