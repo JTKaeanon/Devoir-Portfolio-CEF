@@ -1,3 +1,12 @@
+.hero {
+  background-image: url('images/banner.jpg'); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  padding: 100px 0px;
+
+}
+
 .page-services {
   max-width: 900px;
   margin: 0 auto; /* centre le bloc */
@@ -25,5 +34,9 @@
 @media (max-width: 767px) {
     .services-titre::after{
         max-width: 25%;
+    }
+    .hero{
+      padding: 40px 10px;
+      max-height: 5vh;
     }
 }
