@@ -1,0 +1,116 @@
+.hero-home {
+  background-image: url('images/hero-bg.jpg'); 
+  width: 100%;
+  aspect-ratio: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position:center;
+  opacity: 0.8;
+  display: flex;  /* text position and color*/
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hero-home h1{ 
+  font-size: 5.5rem;
+}
+
+.hero-home h2{
+  font-size: 3.5rem;
+}
+
+
+.about-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  gap: 40px;
+  width: 80%;
+  margin: 60px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-skills h3{
+  font-weight: 700;
+}
+
+.about-skills h3::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: 6px;
+  background-color: #0d6efd;
+  margin: 30px 0;
+}
+
+
+.about-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about p{
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.about .skills{
+  flex: 1 1 50%;
+  box-sizing: border-box;
+}
+
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .hero-home h1 {
+    font-size: 3rem;
+  }
+
+  .hero-home h2 {
+    font-size: 2rem;
+  }
+
+}
+
+
+
+
+/* Mobil*/
+@media (max-width: 767px) {
+  .hero-home {
+    padding: 40px 20px;
+  }
+
+  .hero-home h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-home h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-skills {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about, .skills {
+    flex: 1 1 100%;
+  }
+
+  .about img {
+    max-width: 100%;
+  }
+}
