@@ -1,0 +1,42 @@
+.hero {
+  background-image: url('images/banner.jpg'); 
+  background-size: cover;       
+  background-position: center;  
+  background-repeat: no-repeat; 
+  padding: 100px 0px;
+
+}
+
+.page-services {
+  max-width: 900px;
+  margin: 0 auto; /* centre le bloc */
+  padding: 50px 20px;
+}
+
+.services-titre {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.services-titre::after {
+  content: "";
+  display: block;
+  width: 60%;
+  max-width: 400px;
+  height: 6px;
+  background-color: #0d6efd;
+  margin: 30px auto 0 auto;
+}
+
+
+@media (max-width: 767px) {
+    .services-titre::after{
+        max-width: 25%;
+    }
+    .hero{
+      padding: 40px 10px;
+      max-height: 5vh;
+    }
+}
