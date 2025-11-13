@@ -26,6 +26,7 @@
 .hero-home > * {
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 
@@ -37,7 +38,7 @@
   font-size: 3.5rem;
 }
 
-
+/* position about ki*/
 .about-skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -94,9 +95,10 @@
 
 
 /* Mobil*/
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .hero-home {
     padding: 40px 20px;
+    min-height: 50vh;
   }
 
   .hero-home h1 {

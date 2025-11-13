@@ -38,7 +38,6 @@ function ModalHome() {
         backdrop="static"
         keyboard={false}
         centered
-        className='modal'
       >
         <Modal.Header closeButton>
           <Modal.Title>Mon profil GitHub</Modal.Title>
@@ -47,31 +46,23 @@ function ModalHome() {
           {loading ? (
             <p>Chargement...</p>
           ) : user ? (
-            <div>
+            <>
               <img
                 src={user.avatar_url}
                 alt={user.login}
                 className="profile-avatar"
               />
 
-              <div className="profile-info">
-                <p>
-                  <BsPerson />
-                  <a href={user.html_url} target="_blank" rel="noreferrer">
-                    {user.name || user.login}
-                  </a>
-                </p>
-                <p className="profile-bio"> <BsCardText/> {user.bio || "Aucune bio disponible."}</p>
-
-                <div className="profile-stats">
-                  <p> <BsGeoAlt/> {user.location || ""}</p>
-                  <p> <BsBox/> Repositories : <strong>{user.public_repos}</strong></p>
-                  <p> <BsPeople/> Followers : <strong>{user.followers}</strong></p>
-                  <p> <BsPeople/> Following : <strong>{user.following}</strong></p>
-                  
-                </div>
+              <div className="profile">
+                <p className='profile-line'> <BsPerson /> <a href={user.html_url} target="_blank" rel="noreferrer">{user.name || user.login} </a></p>
+                <p className='profile-line'> <BsGeoAlt /> {user.location || ""}</p>
+                <p className='profile-line'> <BsCardText /> {user.bio || "Aucune bio disponible."}</p>
+                <p className='profile-line'> <BsBox /> Repositories : <strong>{user.public_repos}</strong></p>
+                <p className='profile-line'> <BsPeople /> Followers : <strong>{user.followers}</strong></p>
+                <p className='profile-line'> <BsPeople /> Following : <strong>{user.following}</strong></p>
               </div>
-            </div>
+
+            </>
           ) : (
             <p>Erreur de chargement du profil.</p>
           )}
