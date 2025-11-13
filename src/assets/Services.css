@@ -1,4 +1,4 @@
-.hero {
+.hero-services {
   background-image: url('images/banner.jpg'); 
   background-size: cover;       
   background-position: center;  
@@ -31,7 +31,7 @@
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .services-titre::after{
         max-width: 25%;
     }

@@ -1,0 +1,24 @@
+.html-bar .progress-bar {
+    background-color: #dc3545;
+}
+
+.css-bar .progress-bar {
+    background-color: #08c9f0;
+}
+
+.js-bar .progress-bar {
+    background-color: #ffc107;
+}
+
+.php-bar .progress-bar {
+    background-color: #198754;
+}
+
+.react-bar .progress-bar {
+    background-color: #0d6efd;
+}
+
+.bar-container p{
+    margin-top: 2rem;
+    margin-bottom: 2px;
+}

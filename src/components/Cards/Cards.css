@@ -24,25 +24,8 @@
     color: #007bff;
 }
 
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
-    .my-card {
-        flex: 1 1 calc(33.33% - 20px);
-        max-width: 300px;
-    }
-
-    .cards-container {
-        padding: 0 24px;
-    }
-
-    .card-text {
-        word-wrap: break-word;
-    }
-}
-
-
 /* Mobile */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .my-card {
         flex: 1 1 100%;
         max-width: 95%;

@@ -1,0 +1,128 @@
+.hero-home {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* hero img opacity*/
+.hero-home::before {
+  content: '';
+  position: absolute;
+  inset: 0; /* placement */
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;  
+  z-index: 0;     /* behind tittle button */
+}
+
+/* button tittle */
+.hero-home > * {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+
+.hero-home h1{ 
+  font-size: 5.5rem;
+}
+
+.hero-home h2{
+  font-size: 3.5rem;
+}
+
+/* position about ki*/
+.about-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: flex-start;
+  gap: 40px;
+  width: 80%;
+  margin: 60px auto;
+  padding: 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.about-skills h3{
+  font-weight: 700;
+}
+
+.about-skills h3::after {
+  content: "";
+  display: block;
+  width: 100%;
+  max-width: 800px;
+  height: 6px;
+  background-color: #0d6efd;
+  margin: 30px 0;
+}
+
+
+.about-image {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.about p{
+  text-align: justify;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+.about .skills{
+  flex: 1 1 50%;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+
+/* Mobil*/
+@media (max-width: 1024px) {
+  .hero-home {
+    padding: 40px 20px;
+    min-height: 50vh;
+  }
+
+  .hero-home h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-home h2 {
+    font-size: 1.5rem;
+  }
+
+  .about-skills {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .about, .skills {
+    flex: 1 1 100%;
+  }
+
+  .about img {
+    max-width: 100%;
+  }
+  
+  .about p{
+    text-align: start;
+  }
+}
