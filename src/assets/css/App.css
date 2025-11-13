@@ -3,22 +3,27 @@
     padding: 0;
 }
 
+/*Import font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 
+/*Font*/
 body {
   font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   font-optical-sizing: auto;
 }
 
+/*Title weight*/
 h1, h2, h3 ,h4 ,h5, h6{
   font-weight: 600;
 }
-
+/*Strong weight*/
 strong {
   font-weight: 600;
 }
 
+/*App Layout*/
 .app-container {
   display: flex;
   flex-direction: column;
