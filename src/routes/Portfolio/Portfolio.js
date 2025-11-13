@@ -7,6 +7,7 @@ function Portfolio() {
 
   return (
     <>
+       <title>Portfolio</title>
       <p className='hero-portfolio'></p>
       <div className='page-portfolio'>
         <section className='portfolio-titre'>

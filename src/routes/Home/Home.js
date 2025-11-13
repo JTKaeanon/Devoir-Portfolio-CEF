@@ -6,10 +6,11 @@ import aboutImage from '../../assets/images/john-doe-about.jpg';
 function Home() {
   return (
     <>
+      <title>Home</title>
       <div className='hero-home'>
         <h1>Bonjour, je suis John Doe</h1>
         <h2>Développeur web full stack</h2>
-        < ModalHome/>
+        < ModalHome />
       </div>
       <section className='about-skills'>
         <div className='about'>
