@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react'; //Webhook
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import "./Modals.css";
-import { BsPerson, BsGeoAlt, BsCardText, BsBox, BsPeople } from 'react-icons/bs';
+import { BsPerson, BsGeoAlt, BsCardText, BsBox, BsPeople } from 'react-icons/bs'; //SVG bootstrap
 
 function ModalHome() {
   const [show, setShow] = useState(false);
@@ -45,8 +45,8 @@ function ModalHome() {
         </Modal.Header>
         <Modal.Body className="profile-container">
           {loading ? (
-            <p>Chargement...</p>
-          ) : user ? (
+            <p>Chargement...</p> // if loading
+          ) : user ? ( // found user
             <>
               <img
                 src={user.avatar_url}
@@ -65,7 +65,7 @@ function ModalHome() {
 
             </>
           ) : (
-            <p>Erreur de chargement du profil.</p>
+            <p>Erreur de chargement du profil.</p> // if error
           )}
         </Modal.Body>
         <Modal.Footer>
