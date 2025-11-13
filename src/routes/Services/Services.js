@@ -5,6 +5,7 @@ import '../../assets/css/Services.css'
 function Services() {
   return (
     <>
+      <title>Services</title>
       <p className='hero-services'></p>
       <div className='page-services'>
         <section className='services-titre'>
