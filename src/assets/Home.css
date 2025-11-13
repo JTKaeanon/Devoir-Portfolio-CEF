@@ -1,17 +1,33 @@
 .hero-home {
-  background-image: url('images/hero-bg.jpg'); 
+  position: relative;
   width: 100%;
   aspect-ratio: 2;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position:center;
-  opacity: 0.8;
-  display: flex;  /* text position and color*/
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: white;
+  overflow: hidden;
 }
+
+/* hero img opacity*/
+.hero-home::before {
+  content: '';
+  position: absolute;
+  inset: 0; /* placement */
+  background-image: url('images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;  
+  z-index: 0;     /* behind tittle button */
+}
+
+/* button tittle */
+.hero-home > * {
+  position: relative;
+  z-index: 1;
+}
+
 
 .hero-home h1{ 
   font-size: 5.5rem;

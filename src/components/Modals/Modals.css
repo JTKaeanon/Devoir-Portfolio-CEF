@@ -1,20 +1,21 @@
-.button-modal{
-    background-color: #FF0000;
+.button-modal.btn{
+    background-color: #B91919 ;
     border: none;
     margin: 2rem;
     padding: 0.5rem 2rem;
+    
 }
 
-.button-modal:hover{
-    background-color: #b20000;
+.button-modal.btn:hover{
+    background-color: #811111;
 }
 
-.button-close{
+.button-close.btn{
     background-color: gray;
     border: none;
 }
 
-.button-close:hover{
+.button-close.btn:hover{
     background-color: #4c4c4c;
 }
 
