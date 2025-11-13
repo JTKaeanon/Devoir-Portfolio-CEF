@@ -1,0 +1,44 @@
+/* hero */
+.hero-portfolio {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+
+}
+
+
+/* center */
+.page-portfolio {
+    max-width: 900px;
+    margin: 0 auto;
+    /* center */
+    padding: 50px 20px;
+}
+
+
+/* title + description */
+.portfolio-titre h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.portfolio-titre p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+/* blue line */
+.portfolio-titre::after {
+    content: "";
+    display: block;
+    width: 60%;
+    max-width: 400px;
+    height: 6px;
+    background-color: #0d6efd;
+    margin: 30px auto 50px auto;
+}

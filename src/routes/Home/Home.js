@@ -1,6 +1,6 @@
 import ProgressBar from '../../components/ProgressBar/ProgressBar'
 import ModalHome from '../../components/Modals/Modals';
-import '../../assets/Home.css';
+import '../../assets/css/Home.css';
 import aboutImage from '../../assets/images/john-doe-about.jpg';
 
 function Home() {
