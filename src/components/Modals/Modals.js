@@ -38,6 +38,7 @@ function ModalHome() {
         backdrop="static"
         keyboard={false}
         centered
+        animation={false}
       >
         <Modal.Header closeButton>
           <Modal.Title>Mon profil GitHub</Modal.Title>
