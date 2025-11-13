@@ -1,0 +1,25 @@
+.button-modal{
+    background-color: #FF0000;
+    border: none;
+    margin: 2rem;
+    padding: 0.5rem 2rem;
+}
+
+.button-modal:hover{
+    background-color: #b20000;
+}
+
+.button-close{
+    background-color: gray;
+    border: none;
+}
+
+.button-close:hover{
+    background-color: #4c4c4c;
+}
+
+.modal .modal-content{
+    background-color: #212529;
+    color: white;
+    
+}

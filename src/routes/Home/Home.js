@@ -1,5 +1,5 @@
-import React from 'react'
 import ProgressBar from '../../components/ProgressBar/ProgressBar'
+import ModalHome from '../../components/Modals/Modals';
 import '../../assets/Home.css';
 import aboutImage from '../../assets/images/john-doe-about.jpg';
 
@@ -9,7 +9,7 @@ function Home() {
       <div className='hero-home'>
         <h1>Bonjour, je suis John Doe</h1>
         <h2>Développeur web full stack</h2>
-        <p>placeholder</p>
+        < ModalHome/>
       </div>
       <section className='about-skills'>
         <div className='about'>

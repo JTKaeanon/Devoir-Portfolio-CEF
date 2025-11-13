@@ -72,23 +72,13 @@
 }
 
 
-/* Tablet */
-@media (max-width: 1024px) {
-  .hero-home h1 {
-    font-size: 3rem;
-  }
 
-  .hero-home h2 {
-    font-size: 2rem;
-  }
-
-}
 
 
 
 
 /* Mobil*/
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .hero-home {
     padding: 40px 20px;
   }
