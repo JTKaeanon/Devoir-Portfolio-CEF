@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar/Navbar";
 import Main from './components/Main/Main'
-import './assets/App.css';
+import './assets/css/App.css';
 
 
 

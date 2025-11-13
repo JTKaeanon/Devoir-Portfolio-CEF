@@ -15,7 +15,7 @@
   content: '';
   position: absolute;
   inset: 0; /* placement */
-  background-image: url('images/hero-bg.jpg');
+  background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   background-position: center;
   opacity: 0.8;  

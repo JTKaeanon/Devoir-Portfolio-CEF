@@ -1,6 +1,6 @@
 import Card from 'react-bootstrap/Card';
 import { BsBrush, BsCodeSlash, BsSearch } from 'react-icons/bs';
-import "./Cards.css"
+import "./ServicesCards.css"
 
 
 function ServicesCards() {

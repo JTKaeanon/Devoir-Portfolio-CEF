@@ -1,5 +1,5 @@
 .hero-services {
-  background-image: url('images/banner.jpg'); 
+  background-image: url('../images/banner.jpg'); 
   background-size: cover;       
   background-position: center;  
   background-repeat: no-repeat; 
@@ -9,15 +9,20 @@
 
 .page-services {
   max-width: 900px;
-  margin: 0 auto; /* centre le bloc */
+  margin: 0 auto; /* center */
   padding: 50px 20px;
 }
 
-.services-titre {
+.services-titre h1 {
   text-align: center;
   margin-bottom: 30px;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: bold;
+}
+
+.services-titre p{
+  font-size: 1rem;
+  text-align: center;
 }
 
 .services-titre::after {
@@ -27,7 +32,7 @@
   max-width: 400px;
   height: 6px;
   background-color: #0d6efd;
-  margin: 30px auto 0 auto;
+  margin: 30px auto 50px auto;
 }
 
 

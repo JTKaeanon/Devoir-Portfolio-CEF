@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import Mentions from '../../components/Accordion/Accordion'
-import '../../assets/Legales.css';
+import '../../assets/css/Legales.css';
 
 
 
