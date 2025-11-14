@@ -19,7 +19,7 @@ const FooterNav = () => {
                         <p className="mb-3">john.doe@gmail.com</p>
 
                         <div className="d-flex justify-content-md-start gap-3 fs-4 footer-socials">
-                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="text-light social-link">
+                            <a href="https://github.com/github-john-doe" target="_blank" rel="noopener noreferrer" className="text-light social-link">
                                 <BsGithub />
                             </a>
                             <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="text-light social-link">
@@ -47,12 +47,12 @@ const FooterNav = () => {
                     <div className="col-12 col-md-4 mb-4">
                         <h3 className="h5">Mes dernières réalisations</h3>
                         <ul className="list-unstyled">
-                            <li><Link to="#" className="footer-link">Fresh Food</Link></li>
-                            <li><Link to="#" className="footer-link">Restaurant Akira</Link></li>
-                            <li><Link to="#" className="footer-link">Espace bien-être</Link></li>
-                            <li><Link to="#" className="footer-link">SEO</Link></li>
-                            <li><Link to="#" className="footer-link">Création d'une API</Link></li>
-                            <li><Link to="#" className="footer-link">Maquette d’un site</Link></li>
+                            <li><Link to="/portfolio" className="footer-link">Fresh Food</Link></li>
+                            <li><Link to="/portfolio" className="footer-link">Restaurant Akira</Link></li>
+                            <li><Link to="/portfolio" className="footer-link">Espace bien-être</Link></li>
+                            <li><Link to="/portfolio" className="footer-link">SEO</Link></li>
+                            <li><Link to="/portfolio" className="footer-link">Création d'une API</Link></li>
+                            <li><Link to="/portfolio" className="footer-link">Maquette d’un site</Link></li>
                         </ul>
                     </div>
                 </div>

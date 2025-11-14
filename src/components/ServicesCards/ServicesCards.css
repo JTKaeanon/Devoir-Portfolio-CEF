@@ -1,4 +1,4 @@
-.cards-container {
+.cards-container-services {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -14,7 +14,11 @@
     border-radius: 10px;
 }
 
-
+/* hover card*/
+.cards-container-services .card:hover {
+  background-color: #efefef; 
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2); 
+}
 
 
 /* Bootstrap*/

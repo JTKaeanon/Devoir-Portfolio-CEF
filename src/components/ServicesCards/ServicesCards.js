@@ -5,7 +5,7 @@ import "./ServicesCards.css"
 
 function ServicesCards() {
     return (
-        <div className="cards-container">
+        <div className="cards-container-services">
             <Card className='my-card'>
                 <Card.Body>
                     <BsBrush class />
