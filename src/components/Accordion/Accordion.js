@@ -32,8 +32,8 @@ function Mentions() {
                 <Accordion.Body> {/* Sources block*/}
                     <h2>Crédits</h2>
                     <p>Ce site a été réalisé par John Doe, étudiant au <a href="https://www.centre-europeen-formation.fr/" target="_blank" rel="noopener noreferrer">Centre Européen de formation</a>.</p>
-                    <p><em>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/">Pixabay</a></em></p>
-                    <p><em>La favicon de ce site a été fournie par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe">John doe Icons erstellt von Freepik - Flaticon</a></em></p>
+                    <p><em>Les images utilisées sur ce site sont libres de droits et ont été obtenues sur le site <a href="https://pixabay.com/" target="_blank" rel="noopener noreferrer">Pixabay</a></em></p>
+                    <p><em>La favicon de ce site a été fournie par <a href="https://www.flaticon.com/de/kostenlose-icons/john-doe" target="_blank" rel="noopener noreferrer">John doe Icons erstellt von Freepik - Flaticon</a></em></p>
                 </Accordion.Body>
             </Accordion.Item>
         </Accordion>
