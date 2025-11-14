@@ -19,13 +19,13 @@ const FooterNav = () => {
                         <p className="mb-3">john.doe@gmail.com</p>
 
                         <div className="d-flex justify-content-md-start gap-3 fs-4 footer-socials">
-                            <a href="https://github.com/github-john-doe" target="_blank" rel="noopener noreferrer" className="text-light social-link">
+                            <a href="https://github.com/github-john-doe" target="_blank" rel="noopener noreferrer nofollow" className="text-light social-link">
                                 <BsGithub />
                             </a>
-                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="text-light social-link">
+                            <a href="https://x.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-light social-link">
                                 <BsTwitter />
                             </a>
-                            <a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer" className="text-light social-link">
+                            <a href="https://fr.linkedin.com/" target="_blank" rel="noopener noreferrer nofollow" className="text-light social-link">
                                 <BsLinkedin />
                             </a>
                         </div>

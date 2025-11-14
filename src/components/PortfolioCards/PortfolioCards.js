@@ -12,7 +12,7 @@ function PortfolioCards() {
     return (
         <div className='card-container-portfolio'>
             <Card>
-                <Card.Img src={freshFoodImg} />
+                <Card.Img src={freshFoodImg} alt="Légumes frais" />
                 <Card.Body className='projet'>
                     <Card.Title>Fresh Food</Card.Title>
                     <Card.Text>
@@ -24,7 +24,7 @@ function PortfolioCards() {
             </Card>
 
             <Card>
-                <Card.Img src={restoJap} />
+                <Card.Img src={restoJap} alt="Restaurant japonais" />
                 <Card.Body className='projet'>
                     <Card.Title>Restaurant Akira</Card.Title>
                     <Card.Text>
@@ -36,7 +36,7 @@ function PortfolioCards() {
             </Card>
 
             <Card>
-                <Card.Img src={bienEtre} />
+                <Card.Img src={bienEtre} alt="Image reposante bien être" />
                 <Card.Body className='projet'>
                     <Card.Title>Espace bien-être</Card.Title>
                     <Card.Text>
@@ -48,7 +48,7 @@ function PortfolioCards() {
             </Card>
 
             <Card>
-                <Card.Img src={seo} />
+                <Card.Img src={seo} alt="Nuage de mot SEO" />
                 <Card.Body className='projet'>
                     <Card.Title >SEO</Card.Title>
                     <Card.Text>
@@ -60,7 +60,7 @@ function PortfolioCards() {
             </Card>
 
             <Card>
-                <Card.Img src={coder} />
+                <Card.Img src={coder} alt="HTML" />
                 <Card.Body className='projet'>
                     <Card.Title>Création d'une API</Card.Title>
                     <Card.Text>
@@ -72,7 +72,7 @@ function PortfolioCards() {
             </Card>
 
             <Card>
-                <Card.Img src={ecran} />
+                <Card.Img src={ecran} alt="Photo de bureau" />
                 <Card.Body className='projet'>
                     <Card.Title>Maquette d'un site web</Card.Title>
                     <Card.Text>
