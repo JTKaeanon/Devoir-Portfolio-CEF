@@ -8,7 +8,7 @@ function ServicesCards() {
         <div className="cards-container-services">
             <Card className='my-card'>
                 <Card.Body>
-                    <BsBrush class />
+                    <BsBrush/>
                     <Card.Title>UX Design</Card.Title>
                     <Card.Text className='card-text'>
                         L'UX design est une discipline qui consiste à concevoir des produits (sites web, applications mobiles, logiciels, objets connectés, ect.)

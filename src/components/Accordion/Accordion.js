@@ -11,12 +11,12 @@ function Mentions() {
                 <Accordion.Header>Editeur du site</Accordion.Header>
                 <Accordion.Body>
                     <p className='name'>John Doe</p>
-                    <section className='infos'> {/* Infos block*/}
+                    <div className='infos'> {/* Infos block*/}
                     <p><BsMap style={{ marginRight: "3px" }} />40 rue Laure Diebold</p>
                     <p><BsGeoAlt style={{ marginRight: "3px" }} />69009 Lyon, France</p>
                     <p><BsPhone style={{ marginRight: "3px" }} />10 20 30 40 50</p>
                     <p><BsEnvelopeAt style={{ marginRight: "3px" }} />john.doe@gmail.com</p>
-                    </section>
+                    </div>
                 </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1">
