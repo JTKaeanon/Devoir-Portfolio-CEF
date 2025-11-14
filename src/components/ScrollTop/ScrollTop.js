@@ -12,3 +12,7 @@ const ScrollTop = () => {
 };
 
 export default ScrollTop;
+
+
+
+/* Auto scroll top page when navigating */
